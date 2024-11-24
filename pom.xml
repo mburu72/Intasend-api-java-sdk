@@ -4,13 +4,36 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.tumilabs</groupId>
+    <groupId>org.tumixlabs</groupId>
     <artifactId>IntaSend-java-sdk</artifactId>
     <version>1.0</version>
     <name>IntaSend-java</name>
     <description>A simple SDK for IntaSend API</description>
-    <url>https://github.com/mycompany/my-sdk</url>
-
+    <url>https://github.com/Tumixlabs/Intasend-java-sdk</url>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>developer1</id>
+            <name>Edward Mburu</name>
+            <email>edupablo72@gmail.com</email>
+        </developer>
+    </developers>
+    <scm>
+        <url>https://github.com/Tumixlabs/Intasend-java-sdk</url>
+        <connection>scm:git:git://github.com/Tumixlabs/Intasend-java-sdk.git</connection>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </distributionManagement>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -32,6 +55,14 @@
 
     </dependencies>
     <build>
+            <resources>
+                <resource>
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>LICENSE</include>
+                    </includes>
+                </resource>
+            </resources>
         <plugins>
             <!-- Javadoc Maven Plugin -->
             <plugin>
