@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.tumixlabs</groupId>
-    <artifactId>IntaSend-java-sdk</artifactId>
-    <version>1.0</version>
-    <name>IntaSend-java</name>
+    <artifactId>intasend-java-sdk</artifactId>
+    <version>1.0.0</version>
+    <name>IntaSend-java-sdk</name>
     <description>A simple SDK for IntaSend API</description>
-    <url>https://github.com/Tumixlabs/Intasend-java-sdk</url>
+    <url>https://github.com/mburu72/Intasend-api-java-sdk</url>
     <licenses>
         <license>
             <name>Apache License 2.0</name>
@@ -25,20 +25,22 @@
         </developer>
     </developers>
     <scm>
-        <url>https://github.com/Tumixlabs/Intasend-java-sdk</url>
-        <connection>scm:git:git://github.com/Tumixlabs/Intasend-java-sdk.git</connection>
+        <url>https://github.com/mburu72/Intasend-api-java-sdk</url>
+        <connection>scm:git:git://github.com/mburu72/Intasend-api-java-sdk.git</connection>
     </scm>
     <distributionManagement>
         <repository>
-            <id>maven-central</id>
-            <url>https://repo.maven.apache.org/maven2</url>
+            <id>github</id>
+            <name>IntaSend-java-sdk</name>
+            <url>https://maven.pkg.github.com/mburu72/Intasend-api-java-sdk</url>
         </repository>
     </distributionManagement>
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
         <dependency>

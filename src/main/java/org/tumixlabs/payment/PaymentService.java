@@ -1,4 +1,4 @@
-package org.tumilabs.payment;
+package org.tumixlabs.payment;
 
 import okhttp3.*;
 import org.json.JSONArray;

@@ -1,4 +1,4 @@
-package org.tumilabs.payment;
+package org.tumixlabs.payment;
 
 import java.io.IOException;
 
